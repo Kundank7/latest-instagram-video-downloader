@@ -39,7 +39,13 @@ export function Footer() {
   return (
     <footer className="h-8 w-full bg-background/50 text-center text-secondary-foreground">
       <div className="flex items-center justify-between border-t border-input px-4 py-2">
-        {/* All footer content removed */}
+        
+
+        <div aria-label="Disclaimer" className="text-sm font-semibold">
+          © Copyright 2025, All Rights Reserved | designed by Kundan K
+
+        </div>
+        
       </div>
     </footer>
   );
