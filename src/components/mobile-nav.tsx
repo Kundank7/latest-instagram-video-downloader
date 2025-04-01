@@ -19,25 +19,7 @@ export function MobileNav({ className }: { className?: string }) {
           <Menu className="h-4 w-4" />
         </Button>
       </SheetTrigger>
-      <SheetContent side="left">
-        
-        <ul className="space-y-3">
-          {externalLinks.map((link) => (
-            <li key={link.href}>
-              <Button variant="outline" asChild>
-                <Link
-                  href={link.href}
-                  className="w-full"
-                  target="_blank"
-                  onClick={handleCloseSheet}
-                >
-                  {link.name}
-                </Link>
-              </Button>
-            </li>
-          ))}
-        </ul>
-      </SheetContent>
+      
     </Sheet>
   );
                 }
