@@ -27,20 +27,8 @@ export function Navbar() {
             <Link href="/" className="hover:underline">
               Home
             </Link>
-            <Link
-              target="_blank"
-              href="https://github.com/riad-azz/instagram-video-downloader"
-              className="hover:underline"
-            >
-              Github
-            </Link>{" "}
-            <Link
-              target="_blank"
-              href="https://github.com/riad-azz"
-              className="hover:underline"
-            >
-              Creator
-            </Link>
+            {/* Github Link Removed */}
+            {/* Creator Link Removed */}
           </div>
           <ThemeToggle />
         </div>
